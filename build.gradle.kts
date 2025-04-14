@@ -3,6 +3,7 @@ buildscript {
         mavenCentral()
         google()
         maven(url = "https://plugins.gradle.org/m2/")
+        maven(url = "https://www.jitpack.io")
     }
     dependencies {
         classpath(libs.gradle.agp)
